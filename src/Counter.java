@@ -7,7 +7,7 @@ public class Counter {
         this.t=t;
     }
 
-    public void start1() throws InterruptedException {
+    public void begin() throws InterruptedException {
         MyCode code = new MyCode(t);
 
         Thread[] threads = new Thread[4];
